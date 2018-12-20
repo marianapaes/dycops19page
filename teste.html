@@ -1,0 +1,98 @@
+    
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  		<meta charset="utf-8">
+  		
+  		<meta name="generator" content="Bootply" />
+  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  		<link href="css/bootstrap.min.css" rel="stylesheet">
+  		<!--[if lt IE 9]>
+  			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  		<![endif]-->
+  		<link href="css/styles.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+    $( document ).ready(function() {
+        console.log( "document loaded" );
+    });
+ 
+    $( window ).on( "load", function() {
+        console.log( "window loaded" );
+    });
+    </script>
+
+
+<title>DYCOPS-CAB 2019</title>
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="css/styles.css"/>
+<!-- Include JS File Here -->
+<script src="js/scripts.js"></script>
+<script language="javascript">
+
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "Monty" && password == "Python"){
+alert ("Login successfully");
+window.location = "index.html"; // Redirecting to other page.
+return false;
+}
+else{
+alert("Username or password invalid");
+return false;
+
+}
+}
+
+</script>
+
+
+
+</head>
+<body>
+<div class="paddingContent"> </div>
+ <div class="col col-sm-8  ">
+                <div >
+                <h1 class="darkGreenTex">This site is under construction.</h1>
+                   <div>
+                   
+
+                       
+                   </div>
+                </div>
+
+                <div class="paddingContent"> </div>
+                <div class="paddingContent"> </div>
+                <div class="paddingContent"> </div>
+              </div>
+
+
+
+
+
+
+<div class="row">
+<div class=" text-right">
+<div class="container ">
+<div class="main ">
+<h3 class="mediumGreen">Restricted Area:</h3>
+<form id="form_id" method="post" name="myform">
+<label class="mediumGreen" >Username :</label>
+<input type="text" name="username" id="username"/>
+<label class="mediumGreen">Password :</label>
+<input type="password" name="password" id="password"/>
+<div>
+<input type="button" class="btn btn-default btn-xs" value="Login" id="submit" onclick="validate()"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
